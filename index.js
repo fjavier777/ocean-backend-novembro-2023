@@ -7,6 +7,8 @@ app.get('/', function (req, res) {
 
 app.get("/oi", function (req, res) {
   res.send("Olá, mundo!")  
-})
+});
 
-app.listen(3000)
+app.listen(3000,
+console.log ("Servidor rodando em http:localhost/3000")
+);
